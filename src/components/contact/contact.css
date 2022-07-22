@@ -1,0 +1,181 @@
+.c{
+    height: 100vh;
+}
+
+.c-bg{
+    width: 20px;
+    height: 100%;
+    background: linear-gradient(180deg, #000272 0%, #ac1dff 100%);
+    position: absolute;
+}
+
+.links{
+    width: 30px;
+    height: 30px;
+    margin-right: 25px;
+    margin-top: 25px;
+    transition: 0.7s all ease-in-out;
+    border-radius: 10px;
+}
+
+.c-wrapper{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.c-left{
+    flex: 1;
+}
+
+.c-right{
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.c-title{
+    font-size: 50px;
+    width: 80%;
+}
+
+.c-info-item{
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    margin: 93px 0;
+    width: 70%;
+}
+
+.c-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+
+}
+
+.c-desc{
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+
+form{
+    margin-top: 20px;
+}
+
+input{
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    display: block;
+    margin: 33px 0px;
+    font-size: 10px;
+    padding-left: 10px;
+    display: flex;
+    font-size: 1rem;
+}
+
+textarea{
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding: 10px;
+    resize: none;
+}
+
+button{
+    border: none;
+    padding: 15px;
+    background-color: #ac1dff;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+ .c-wrapper{
+    padding: 0 40px;
+ }   
+ .c-title{
+    margin-top: 0;
+ }
+
+ .c-info-item{
+    margin: 50px 0;
+ }
+
+ textarea{
+    height: 70px;
+ }
+}
+
+@media screen and (max-width:480px) {
+    .c-wrapper{
+        flex-direction: column;
+        padding:0px 50px;
+        margin: 20px 0;
+    }
+
+    .c-title{
+        font-size: 30px;
+
+    }
+
+    .c-info-item{
+        margin: 10px 0px;
+        width: 100%;
+    }
+
+    .c-desc{
+        display: none;
+    }
+
+    form{
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    input{
+        width: 35%;
+        height: 40px;
+        margin: 10px;
+        margin-left: 0;
+    }
+    button{
+        margin: 10px;
+        width: auto;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        padding-bottom: 20px;
+        padding-top: 5px;
+    }
+
+    textarea{
+        height: 40px;
+    }
+
+    .c-info-item{
+        font-size: 0.8rem;
+    }
+
+    .social-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .links{
+        padding: 0px;
+        padding-left: 10px;
+    }
+    
+}
