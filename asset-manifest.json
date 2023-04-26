@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio-yashk/static/css/main.7076c974.css",
+    "main.js": "/portfolio-yashk/static/js/main.f98c2260.js",
+    "static/media/myimg.jpg": "/portfolio-yashk/static/media/myimg.a9ba4f0b6c7f0729e2ed.jpg",
+    "static/media/about.jpg": "/portfolio-yashk/static/media/about.25e5b16f4a77c574b9b3.jpg",
+    "index.html": "/portfolio-yashk/index.html",
+    "main.7076c974.css.map": "/portfolio-yashk/static/css/main.7076c974.css.map",
+    "main.f98c2260.js.map": "/portfolio-yashk/static/js/main.f98c2260.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7076c974.css",
+    "static/js/main.f98c2260.js"
+  ]
+}
